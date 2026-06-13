@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme inherited by MainActivity.
+         WindowBackground is transparent so Compose's Surface colour shows through. -->
+    <style name="Theme.ContactApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
